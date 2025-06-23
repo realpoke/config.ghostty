@@ -12,12 +12,18 @@ To install this configuration, follow these steps:
 mkdir -p ~/.config/ghostty
 ```
 
-2. **Clone this repository** into the `ghostty` directory:
+2. **Clear default `ghostty` config** inside the `ghostty` folder:
+
+```bash
+rm -rf ~/.config/ghostty/*
+```
+
+3. **Clone this repository** into the `ghostty` directory:
 
 ```bash
 git clone git@github.com:realpoke/config.ghostty.git ~/.config/ghostty
 ```
 
-3. **Done!** Everything should be working now.
+4. **Done!** Everything should be working now.
 
 - **Note**: This config is only intented for Linux.
